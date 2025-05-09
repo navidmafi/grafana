@@ -33,7 +33,10 @@ const onOpenSnapshotOriginalDashboard = (originalUrl: string) => {
         new ShowModalReactEvent({
           component: ConfirmModal,
           props: {
-            title: 'Proceed to external site?',
+            title: t(
+              'dashboard-scene.on-open-snapshot-original-dashboard.title.proceed-to-external-site',
+              'Proceed to external site?'
+            ),
             modalClass: css({
               width: 'max-content',
               maxWidth: '80vw',
