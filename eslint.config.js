@@ -300,7 +300,12 @@ module.exports = [
       '**/mock*.{ts,tsx}',
     ],
     rules: {
-      '@grafana/no-untranslated-strings': ['error', { calleesToIgnore: ['^css$', 'use[A-Z].*'] }],
+      '@grafana/no-untranslated-strings': [
+        'error',
+        {
+          calleesToIgnore: ['^css$', 'use[A-Z].*'],
+        },
+      ],
       '@grafana/no-translation-top-level': 'error',
     },
   },
