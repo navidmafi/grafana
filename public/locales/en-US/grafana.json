@@ -5645,6 +5645,7 @@
         "git-lab-integration-and-datasource": "GitLab integration and datasource",
         "honeycomb-integration-and-datasource": "Honeycomb integration and datasource",
         "jira-integration-and-datasource": "Jira integration and datasource",
+        "logic-monitor-devices-datasource": "LogicMonitor Devices datasource",
         "mongo-db-integration-and-data-source": "MongoDB integration and data source",
         "netlify-datasource": "Netlify datasource",
         "new-relic-integration-and-data-source": "New Relic integration and data source",
